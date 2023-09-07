@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "zanex-fare-calculator"
+  },
+  "targets": {
+    "zanex-fare-calculator": {
+      "hosting": {
+        "zanex_fare_calculator": [
+          "zanex-fare-calculator"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
