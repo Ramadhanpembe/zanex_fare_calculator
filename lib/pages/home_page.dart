@@ -242,6 +242,11 @@ class _HomePageState extends State<HomePage> {
                                       double.tryParse(_distanceTravelledController.text) ?? 0.0,
                                   time: double.tryParse(_timeTakenController.text) ?? 0.0,
                                   variables: variables,
+                                  baseFare: double.tryParse(_baseFareController.text) ?? 0.0,
+                                  distanceRate:
+                                      double.tryParse(_distanceRateController.text) ?? 0.0,
+                                  timeRate: double.tryParse(_timeRateController.text) ?? 0.0,
+                                  multipliers: multipliers,
                                 );
                               },
                             ),

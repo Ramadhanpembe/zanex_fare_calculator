@@ -15,6 +15,11 @@ class Pricer {
   double calculateFare({
     double distance = 0,
     double time = 0,
+    required baseFare,
+    required distanceRate,
+    required timeRate,
+    required multipliers,
+
     // Records whether a user has checked or unchecked the checkbox. Example, `{'bodaboda': true}`
     Map<String, bool> variables = const {},
   }) {
